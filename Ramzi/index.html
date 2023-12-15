@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramzi Ahmadov | ADA Student</title>
+    <link rel="stylesheet" href="../index/tur_style.css">   
+
+</head>
+<body>
+    <section class="banner" id="home" style="">
+        <div class="imgSidebar" style="margin-top: 10%;margin-left:5%;">
+            <img src="../images/turqut.jpg" style="height: 600px;border-radius: 6%;box-shadow: 0 0 20px grey;" alt="">
+        </div>
+       <div class="contentBx">
+        <h5 class="logoText">My Personal Website</h5>
+        <div>
+            <h4><span>Hello, </span>I am</h4>
+            <h4>Turqut Rahimli</h4>
+            <p> I am 22 years old Azerbaijani teenager. I was born in
+                Baku; however, I am from Yerevan district. I have grown up in Sumqayit, and currently, I live in Baku,
+                Ahmadli. I am a singer that founded his own boysband <br>
+                <a href="project.html" class="btn">My band</a>
+        </div>
+       </div>
+    </section>
+<div class="sidebar">
+    <ul class="menu">
+        <li><a href="index.html" onclick="toogleMenu();">Home</a></li>
+        <li><a href="contact.html" onclick="toogleMenu();">Contact</a></li>
+        <li><a href="about.html" onclick="toogleMenu();">About Me</a></li>
+        <li><a href="project.html" onclick="toogleMenu();">Project</a></li>
+
+    </ul>
+</div>
+<script>
+    function toogleMenu(){
+    const menuToggle =document.querySelector('.toggle');
+    const sidebar =document.querySelector('.sidebar');
+    menuToggle.classList.toggle('active');
+    sidebar.classList.toggle('active');  
+}
+</script>
+</body>
+</html>

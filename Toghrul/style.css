@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.myimg{
+    margin: 30px 0px 20px 0px;
+    border-radius:10px;
+}
+.name{
+    margin: 20px 0px 30px 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+.myintr{
+    
+    margin: 150px auto;
+    font-size: 17px;
+    text-align: center;
+    padding: 40px;
+    width: 58vw;
+}
+.tech{
+    margin-bottom: 70px;
+    color: lightcoral;
+}
+.sci{
+    margin-bottom: 70px;
+    color: mediumpurple;
+}
+.art{
+    margin-bottom: 70px;
+    color: lightseagreen;
+}
+h1{
+    font-size: 50px;
+}
+.conta{
+    background: rgb(95,255,0);
+background: linear-gradient(90deg, rgba(95,255,0,1) 33%, rgba(11,156,237,1) 49%, rgba(237,11,61,1) 63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+      
+}
+div .link{
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.671),inset 0 0 5px rgba(128, 128, 128, 0.671);
+}
