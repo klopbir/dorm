@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+}
+.tacont{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 150px;
+
+}
+
+table{
+    width: 70%;
+    border:none;
+
+}
+td{
+    color:#240091;
+    font-size: 27px ;
+}
+.rowt{
+    color: #2778b1;
+    font-size: 28px;
+    font-weight: 700;
+}
+td{
+    border:4px grey solid;
+
+    padding: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.big-card{
+    display: flex;
+    height: 160vh;
+    justify-content: center;
+    flex-wrap:nowrap;
+    align-items: center;
+    background: center/100% auto no-repeat url("../images/shutterstock_1731284125_0.jpg")
+}
+.imgs{
+    text-align: center;
+    border: whitesmoke 3px solid;
+    border-radius:3px;
+    margin: 5px;
+    transition: all .2s ease-in-out;
+    background: rgb(255,119,0);
+    background: linear-gradient(90deg, rgba(255,119,0,.3) 0%, rgba(151,11,237,.3) 39%, rgba(0,255,226,.3) 100%);
+    box-shadow: 0px 0px 4px thistle;
+    box-shadow: 0px 0px 16px thistle;
+    box-shadow: 0px 0px 32px thistle;
+    box-shadow: 0px 0px 64px thistle;
+    width: 500px;
+}
+.imgs:hover{
+    transform: scale(1.06);
+    animation: gradient 7s ease infinite;
+    background: linear-gradient(90deg, rgba(255,119,0,.6) 0%, rgba(151,11,237,.6) 39%, rgba(0,255,226,.6) 100%);
+
+    margin: 40px;
+    background-size: 400% 400%;
+}
+.imgs img{
+    margin-top: 15px;
+    width: 460px;
+    height: 600px;
+    box-shadow: 0px 0px 4px black;
+    box-shadow: 0px 0px 16px black;
+    box-shadow: 0px 0px 32px black;
+    box-shadow: 0px 0px 65px black;
+    box-shadow: 0px 0px 130px black;
+    box-shadow: 0px 0px 150px black;
+    box-shadow: 0px 0px 180px black;
+}
+img.woy{
+    height: auto;
+
+}
+.item{
+    display:inline-block;
+    position: relative;
+    font-size: 30px;
+    margin-right: 105px;
+    transition: all 0.2s linear;
+
+}
+.item a{
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 300;
+    padding:15px 30px;
+    border-radius:15px;
+    transition: .2s ease all;
+}
+
+.i1{
+    color:#7FCDCD;
+    border:#FF6F61 solid 2px;
+    box-shadow: #FF6F61 0 0 5px ;
+}
+.i2{
+    color:#3bbe2a;
+    border:greenyellow solid 2px;
+    box-shadow: greenyellow 0 0 5px ;
+}
+.i3{
+    color:#b340cf;
+    border:#be6bd3 solid 2px;
+    box-shadow: #be6bd3 0 0 5px ;
+}
+
+.item:hover > .i1{
+    background-color: #c74135c2;
+}
+.item:nth-child(2):hover > .i2{
+    background-color: rgba(64, 105, 1, 0.801);
+}
+.item:last-of-type:hover > .i3{
+    background-color: #71108ac7;
+}
+
+
+.cont{
+    background-color: black;
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    height:13vh;
+    align-items: center;
+}
+nav{
+    width: 100%;
+    position: sticky;
+    top:0;
+    background:  10px 85% / 100px  no-repeat url("../images/brotherhood-removebg.png");
+}
+
+header{
+    min-height:80vh;
+    min-width:100%;
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,0.896796218487395) 5%, rgba(50,42,42,0.9528186274509804) 81%);
+}
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
